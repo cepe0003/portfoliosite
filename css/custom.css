@@ -1,0 +1,44 @@
+@font-face {
+    font-family: montserrat_extra_bold;
+    src: url(fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: montserrat_semi_bold;
+    src: url(fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: montserrat_regular;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: montserrat_italic;
+    src: url(fonts/Montserrat-Italic.ttf);
+}
+@font-face {
+    font-family: IBMPlexSans_regular;
+    src: url(fonts/IBMPlexSans-Regular.ttf);
+}
+:root{
+    /* FONTE */
+    --h1: 'montserrat_extra_bold', Arial, sans-serif;
+    --h2: 'montserrat_semi_bold', Arial, sans-serif;
+    --h3: 'montserrat_italic', Arial, sans-serif;
+    --h4: 'montserrat_regular', verdana, sans-serif;
+    --p: 'IBMPlexSans_regular', system-ui, sans-serif;
+
+    /* FONTSTØRRELSER */
+    --fs-p: 1rem;
+    --fs-h4: 1.5rem;
+    --fs-h3: 2.25rem;
+    --fs-h2: 3rem;
+    --fs-h1: 5rem;
+    --fs-hero: 12.5rem;
+    
+    /* FARVER */
+    --bg-color: #FFFCF5;
+    --text-color-1: #30211E;
+    --text-color-2: #EC2025;
+    --text-color-3: #FFFCF5;
+    --accent-color: #F3A54D;
+    --shadow-color: #E2E1DF;
+}
