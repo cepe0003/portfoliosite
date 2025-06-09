@@ -1,0 +1,15 @@
+/* BASESTYLING */
+*{
+    font-family: var(--p);
+    color: var(--text-color-1);
+    background-color: var(--bg-color);
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:visited{
+    color: initial;
+}

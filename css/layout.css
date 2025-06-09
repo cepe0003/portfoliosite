@@ -3,6 +3,7 @@ CLASS & ID OVERSIGT
 
 #header_logo
 #footer_logo
+.dropdown
 .hero
 .hero_2
 .flex
@@ -20,3 +21,58 @@ CLASS & ID OVERSIGT
 .flex_nav
 .tilbage_btn
 .frem_btn */
+
+
+*{
+padding: 0;
+margin: 0;
+outline: dashed 1px red;
+}
+
+/* HEADER + NAVBAR MED DROPDOWN */
+/* ved ekstra tid tilføjes squiggles ved hover */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 1rem 1.2rem;
+    text-align: center;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+   
+}
+ul li a:hover{
+    background: var(--shadow-color);
+    
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+#header_logo{
+    height: 100%;
+    object-fit:contain;
+}
+
+@media(width>600px){
+    *{
+        outline: dashed 1px blue;
+    }
+}
+@media(width>900px){
+    *{
+        outline: dashed 1px greenyellow;
+    }
+}
