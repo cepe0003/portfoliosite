@@ -53,7 +53,6 @@ nav ul li a{
     width: 5rem;
     padding: 0.7rem 0.2rem;
     text-align: center;
-    background-color: var(--bg-color);
 }
 
 nav ul li ul.dropdown li{
@@ -69,78 +68,6 @@ nav ul li ul.dropdown{
 
 nav ul li:hover ul.dropdown{
     display: block;
-}
-
-/* HOVERIKONER PÅ NAV */
-/* dropdown elementer */
-nav ul li ul.dropdown li a::after{
-    content:"";
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background-image: url(/img/svg/stjerne.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 0.3rem;
-    vertical-align: middle;
-    opacity: 0;
-}
-nav ul li ul.dropdown li a:hover::after{
-    opacity: 1;
-}
-
-/* forside */
-#nav_index::before{
-    content:"";
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background-image: url(/img/svg/stjerne.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    vertical-align: middle;
-    opacity: 0;
-}
-#nav_index:hover::before{
-    opacity: 1;
-}
-
-/* portfolio */
-#nav_portfolio::before{
-    content: "";
-    position: absolute;
-    background-image: url(/img/svg/ring.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    z-index: 1;
-}
-#nav_portfolio:hover::before{
-    opacity: 1;
-}
-
-/* om mig */
-#nav_om_mig::after{
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 11px;
-    background-image: url(/img/svg/underline.svg);
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: contain;
-    opacity: 0;
-}
-#nav_om_mig:hover::after{
-    opacity: 1;
 }
 
 /* FOOTER */
@@ -161,10 +88,6 @@ footer div{
 }
 
 footer h3{
-    background-color: var(--text-color-2);
-    color: var(--text-color-3);
-    font-family: var(--h4);
-    font-size: var(--p);
     border-radius: 9999px;
     padding: 0.5rem;
 }
@@ -175,22 +98,6 @@ footer p, footer a{
     margin-bottom: 1rem;
 }
 
-footer a::after{
-    content:"";
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background-image: url(/img/svg/stjerne.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 0.2rem;
-    vertical-align: middle;
-    opacity: 0;
-}
-
-footer a:hover::after{
-    opacity: 1;
-}
 
 @media(width<=473px){
     /* HEADER + NAVBAR MED DROPDOWN */
