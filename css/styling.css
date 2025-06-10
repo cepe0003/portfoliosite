@@ -177,6 +177,8 @@ footer a:hover::after{
     background-color: var(--text-color-2);
     color: var(--text-color-3);
     font-family: var(--h4);
+    border: 1px solid var(--text-color-2);
+
 }
 .btn_roed:hover, .tilbage_btn:hover, .frem_btn:hover{
     background-color: var(--bg-color);
