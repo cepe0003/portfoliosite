@@ -203,7 +203,15 @@ footer p, footer a{
     display: flex;
     justify-content: space-between;
 }
-
+/* BYLINE */
+/* footer::after{
+    content: "\00A9 Copyright 2025. Bradsted Design. All rights reserved";
+    position: fixed;
+    bottom: 0;
+    font-family: var(--h4);
+    font-size: 0.5rem;
+    color: var(--text-color-1);
+} */
 
 /* MOBIL */
 @media(width<=473px){
