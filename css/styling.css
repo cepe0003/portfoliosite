@@ -26,8 +26,7 @@ h1{
 }
 h2{
     font-family: var(--h2);
-    font-size: var(--fs-h2
-    );
+    font-size: var(--fs-h2);
 }
 h3{
     font-family: var(--h3);
@@ -166,6 +165,7 @@ footer a:hover::after{
 
 /* PORTFOLIO OVERSIGT */
 .tal, .preview_text{
+    background-color: var(--bg-color);
     box-shadow: 2px 4px 13px 1px var(--shadow-color);
 }
 .tal h3{
@@ -206,4 +206,3 @@ footer a:hover::after{
     div.preview_text h3, h4{
         display: none;
     } */
-}  */
