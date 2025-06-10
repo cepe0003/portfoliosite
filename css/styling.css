@@ -40,6 +40,9 @@ p{
     font-family: var(--p);
     font-size: var(--fs-p);
 }
+.uppercase{
+    text-transform: uppercase;
+}
 
 /* HEADER */
 header{
