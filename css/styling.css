@@ -45,6 +45,9 @@ p{
 header{
     font-family: var(--h2);
 }
+nav ul li ul.dropdown li a{
+    border-top: 1px solid var(--shadow-color);
+}
 nav ul li a{
     background-color: var(--bg-color);
 }
