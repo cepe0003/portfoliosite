@@ -129,7 +129,7 @@ nav ul li ul.dropdown li a:hover::after{
     background-image: url(/img/svg/streg.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    vertical-align: top 5%;
+    vertical-align: 5%;
     opacity: 0;
 }
 article a:hover .preview_text h3::after{
