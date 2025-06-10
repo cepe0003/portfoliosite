@@ -120,6 +120,21 @@ nav ul li ul.dropdown li a:hover::after{
 #nav_om_mig:hover::after{
     opacity: 1;
 }
+/* HOVEREFFEKT I TEMAOVERSIGT */
+.preview_text h3::after{
+    content: "";
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(/img/svg/streg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: top 5%;
+    opacity: 0;
+}
+article a:hover .preview_text h3::after{
+    opacity: 1;
+}
 
 /* FOOTER */
 footer h3{
