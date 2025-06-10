@@ -47,6 +47,7 @@ section{
 }
 article{
     margin-bottom: 2rem;
+    max-width: 600px;
 }
 
 /* HEADER + NAVBAR MED DROPDOWN */
@@ -110,19 +111,14 @@ footer p, footer a{
     margin-bottom: 1rem;
 }
 /* HERO SEKTION */
-/* ret senere */
 .hero_sektion{
-    height: 50vh;
-    display: grid;
-    grid-template-rows: repeat(10, 1fr);
-}
-#hero_img{
-    grid-row: 3/5;
+    margin-top: 2rem;
 }
 /* GENEREL FLEX */
 .flex{
     display: flex;
     flex-direction: column;
+    max-width: 600px;
 }
 .flex_text{
     order: 2;
@@ -150,13 +146,24 @@ footer p, footer a{
 /* FORSIDE: PORTFOLIO */
 .flex_card{
     display: flex;
+    gap: 1rem;
 }
 .tal{
-    flex: 1;
+    flex: 1.2;
 }
 .preview_text{
-    flex: 2;
+    flex: 4;
 }
+.tal, .preview_text{
+    border-radius: 30px;
+    padding: 1rem;
+}
+.tal h3{
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: none;
+}
+
 
 /* BTN */
 .btn_roed, .tilbage_btn, .frem_btn{
@@ -166,7 +173,6 @@ footer p, footer a{
     border-radius: 9999px;
     margin: 1rem 0 1rem 0;
     width: 7rem;
-
 }
 .btn_roed{
     margin-right: 3rem;
@@ -180,6 +186,7 @@ footer p, footer a{
 }
 
 
+/* MOBIL */
 @media(width<=473px){
     /* HEADER + NAVBAR MED DROPDOWN */
 nav ul li:first-child{
@@ -187,14 +194,14 @@ nav ul li:first-child{
 }
     
 }
-
+/* MOBIL */
 @media(width>450px){
     *{
         outline: dashed 1px greenyellow;
     }
 
 }
-
+/* TABLET */
 @media(width>600px){
     *{
         outline: dashed 1px blue;
@@ -211,7 +218,7 @@ nav ul li:first-child{
         object-fit:contain;
     }
 }
-
+/* DESKTOP */
 @media(width>900px){
     *{
         outline: dashed 1px red;
@@ -256,3 +263,13 @@ nav ul li:first-child{
 .hero_2{
     margin-top: -1.8rem;
 }  */
+
+/* ret senere */
+/* .hero_sektion{
+    height: 50vh;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+}
+#hero_img{
+    grid-row: 3/5;
+} */
