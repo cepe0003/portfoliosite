@@ -49,6 +49,12 @@ article{
     margin-bottom: 6rem;
     max-width: 600px;
 }
+.flex_text p{
+    margin-bottom: 1rem;
+}
+.om_mig_preview{
+    margin-bottom: 3rem;
+}
 
 /* HEADER + NAVBAR MED DROPDOWN */
 header{
