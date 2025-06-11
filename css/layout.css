@@ -55,7 +55,9 @@ article{
 .om_mig_preview{
     margin-bottom: 3rem;
 }
-
+.tema_img{
+    object-fit: cover;
+}
 /* HEADER + NAVBAR MED DROPDOWN */
 header{
     display: flex;
